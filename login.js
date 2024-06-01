@@ -8,6 +8,7 @@ module.exports = {
          
         const {email,password} = req.body;
 
+        console.log(req.body)
 
         let a  = new User({email:email,password:password});
 
